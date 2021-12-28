@@ -24,10 +24,7 @@ export default function Weather() {
              </h2>
              <p>Tuesday 14:42</p>
              <img
-               src={require(`./images/sunny.gif`)} width={80}               alt="cloud-image"
-               id="icon"
-               class="weather-icon float-left"
-             />
+               src={require(`./images/sunny.gif`)} width={80} />
             <br />
              <span class="currentTemp" id="tempNow"></span>
              <span class="degrees">18 °C</span>
