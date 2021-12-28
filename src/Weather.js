@@ -24,7 +24,7 @@ export default function Weather() {
              </h2>
              <p>Tuesday 14:42</p>
              <img
-               src={require(`./images/sunny.gif`)} width={80} />
+               src={require(`./images/sunny.gif`)} width={80} alt="sunny"/>
             <br />
              <span class="currentTemp" id="tempNow"></span>
              <span class="degrees">18 °C</span>
